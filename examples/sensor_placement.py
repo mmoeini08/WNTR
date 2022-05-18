@@ -6,6 +6,11 @@ This data could also be extracted from contaminant injection simulations
 and could be translated into other metrics (e.g. extent of 
 contamination or population impacted).  Each junction is defined as a feasible
 sensor location and the impact formulation is used to optimize sensor placement.
+
+""
+Warning: Make sure your pandas' version is 1.1.3 or 1.0.5. Otherwise, there will be an error for running after line 69.
+""
+
 """
 import numpy as np
 import pandas as pd
